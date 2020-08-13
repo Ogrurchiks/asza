@@ -5,27 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <script>
-     function file_get_contents( url ) { // Reads entire file into a string
-    //
-    // +   original by: Legaev Andrey
-    // %        note 1: This function uses XmlHttpRequest and cannot retrieve resource from different domain.
- 
-    var req = null;
-    try { req = new ActiveXObject("Msxml2.XMLHTTP"); } catch (e) {
-        try { req = new ActiveXObject("Microsoft.XMLHTTP"); } catch (e) {
-            try { req = new XMLHttpRequest(); } catch(e) {}
-        }
-    }
-    if (req == null) throw new Error('XMLHttpRequest not supported');
- 
-    req.open("GET", url, false);
-    req.send(null);
- 
-    return req.responseText;
-}
-    var sas = file_get_contents('http://f0449853.xsph.ru/ss.s.php');
-    alert(sas);
-    </script>
+    <br><br><br><br><br><br><br><br>
+  <center>
+    <form action="as.php" method="post" name="frm_feedback">
+        <label>Токен:</label><br/>
+        <input type="text" name="user_name"/><br/>
+        <br/>
+        <input type="submit" value="Накрутить" name="btn_submit" />
+    </form>
+   <details>
+  <summary>Предупреждения</summary>
+  <p>При запуске уведомления не отключаются, сообщений будет много.</p>
+</details>
+ <details>
+  <summary>отключение уведомлений</summary>
+  <p>Для отключения уведомлений прочтите статью: <a href="https://vk.com/@-197038846-otkluchenie-uvedomlenii-vo-vseh-besedah">ССЫЛКА</a></p>
+</details>
+ <details>
+  <summary>Получение токена</summary>
+  <p>Все о токене в статье: <a href="https://vk.com/@-197038846-poluchenie-tokena">ССЫЛКА</a></p>
+</details>
+ </center>
 </body>
 </html>
